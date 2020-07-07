@@ -1,0 +1,194 @@
+*{box-sizing: border-box}
+body{
+    background-color: #F8F8FA;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+/* start navbar header*/
+.navbar{
+    background-color: #173460;
+    color: #fff;
+    overflow:hidden; 
+}
+.navbar .container{
+    margin-right: 0%
+}
+.navbar ul{
+    margin-bottom: 10px ;
+    margin-top: 10px;
+    float: right;
+    direction: rtl;
+    text-align: right;
+    font: Regular 18px/34px Noto Kufi Arabic;
+    padding-right: 0;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;  
+}
+
+.navIcon ul{
+     float: left;
+     padding-right: 0;
+}
+/* end navbar header*/
+/*start avocode*/
+.avc{
+    float: right;
+    direction: rtl;
+    text-align: right;
+    width: 1300px;
+    overflow:hidden;
+    padding-top: 10px;
+    padding-bottom:  10px;
+    background: #fff;    
+}
+.avc img{
+     width: 120px;
+     height: 45px;
+     margin-right: 5%;
+}
+
+/* end avocode*/
+/* end start navbar two*/
+.navbarTwo{
+/*     width: 100%;*/
+    background-color: #0079C2 ;
+    color: #fff;
+    overflow:hidden;  
+   /* margin-top: 100px;*/
+}
+
+
+.navbarTwo ul{
+    margin-bottom: 10px ;
+    margin-top: 10px;
+    float: right;
+    direction: rtl;
+    text-align: right;
+    font: Regular 18px/34px Noto Kufi Arabic;
+}
+.navbarTwo ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;     
+}
+/*end navbar two*/
+/* start slider */
+ .slider{
+    background-image: url('../image/BG.png');
+    height:480px;
+    background-size: cover;
+    float: right;
+    direction: rtl;
+    text-align: right;
+     width: 100%;
+   
+}
+.slider h1{
+    font: Bold 40px/76px Noto Kufi Arabic;
+    color: #fff;
+    margin-top: 120px;
+    margin-right: 40px;
+}
+.slider h2{
+    color: #fff;
+    margin-right: 40px;
+    font: Regular 30px/56px Noto Kufi Arabic;
+  
+    
+}
+.slider button{
+    background-color: #fff;
+    border-radius: 30px;
+    padding:10px 50px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    margin-right:12%;
+    font-weight: bold;
+}
+/* end slider*/
+/*start Services*/
+
+.Services h2{
+    float: right;
+    direction: rtl;
+    text-align: right;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 85%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    color: #292D33;
+    font: Bold 30px/56px Noto Kufi Arabic;
+    border-radius: 15px;
+}
+.Services .our-Services{
+      background-color: #fff;
+      overflow: hidden;
+      border-radius: 15px;
+      width: 250px;
+      height: 100px;
+      padding: 5%;
+    
+}
+
+.Services .content{
+    width: 25%;
+    overflow: hidden;
+    direction: rtl;
+    text-align: right;
+    float: right;
+    margin-left: -70px;
+    margin-right:2.5%;
+    margin-bottom: 2.5%;
+  
+     
+ 
+}
+.Services  .content .our-Services .icon{
+    text-align: center;
+}
+.Services  .content .our-Services .icon img{
+    width: 40px;
+    height: 40px;
+    
+}
+.Services  .content .our-Services .text{text-align: center;}
+
+/* end Services*/
+/*start footer*/
+.footer{
+    background-color: #292D33;
+    color:#FFFFFF;
+    overflow: hidden;
+    width: 100%;
+     font: Regular 20px/38px Noto Kufi Arabic;
+}
+.footer span{
+     float: right;
+     direction: rtl; 
+    padding-right: 10% ; 
+    margin-top: 20px;
+}
+
+.footer ul{
+    list-style: none;
+    float: left;
+    padding-left:10%;
+    margin-top:20px;
+    
+}
+.footer ul li{
+   display: inline-block;
+    cursor: pointer;
+    padding: 3px;
+   
+}
+/* end footer*/
